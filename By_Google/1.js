@@ -1,3 +1,13 @@
+/*
+This problem was asked by Google.
+Given a word W and a string S, find all starting indices in S which are anagrams of W.
+For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+*/
+
+
+
+
+/********* Solution ************/
 let w = 'ab';
 let w2 = [w[0], w[1]];
 let rf = [];
@@ -45,3 +55,6 @@ r2.forEach(cur => {
 	rf.push(cur)
 });
 console.log(rf);
+
+
+/* End of solution */
